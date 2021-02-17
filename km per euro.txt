@@ -6,7 +6,10 @@ public class homework5 {
 
         System.out.println("How much euro will you buy gasoline?");
         double a = scan.nextDouble();
-
+        /* 1 car burns 9 liters of gasoline per 100km. 1 liter of gasoline is 1.4 euro.
+        Ask the user how much Euro luv gas he will buy to the console 
+        and calculate how many km he can travel with him and write it to the console.
+        */
         double euro_km =  100 / (9 * 1.4); // How many km goes with a euro?
         double mileagegoes = euro_km  * a;
 
