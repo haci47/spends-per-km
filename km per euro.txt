@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class homework5 {
+    public static void main(String[] args) {
+        Scanner scan =  new Scanner(System.in);
+
+        System.out.println("How much euro will you buy gasoline?");
+        double a = scan.nextDouble();
+
+        double euro_km =  100 / (9 * 1.4); // How many km goes with a euro?
+        double mileagegoes = euro_km  * a;
+
+        System.out.println("with one euro :"   + euro_km  +"mileage goes");
+        System.out.println("with this money :" + mileagegoes);
+    }
+}
